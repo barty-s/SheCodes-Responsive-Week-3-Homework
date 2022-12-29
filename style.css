@@ -87,6 +87,19 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+.bio-link {
+  font-size: 18px;
+  color: #6c63ff;
+  text-decoration: none;
+}
+.bio-link:hover {
+  font-weight: bold;
+  color: #6c63ff;
+}
+.bio-links {
+  color: darkgray;
+  font-size: 18px;
+}
 
 @media (max-width: 540px) {
   h1 {
