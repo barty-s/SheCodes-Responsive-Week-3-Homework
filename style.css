@@ -55,10 +55,20 @@ p {
   text-transform: capitalize;
   font-weight: lighter;
 }
+.primary-link:hover {
+  background: white;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  text-decoration: none;
+}
 
 .secondary-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+.secondary-link:hover {
+  background: var(--primary-color);
+  color: white;
 }
 
 .homepage-link {
@@ -85,16 +95,18 @@ p {
 }
 
 .email-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--primary-color);
 }
 .bio-link {
   font-size: 18px;
-  color: #6c63ff;
+  color: var(--primary-color);
   text-decoration: none;
 }
 .bio-link:hover {
   font-weight: bold;
-  color: #6c63ff;
+  color: var(--primary-color);
 }
 .bio-links {
   color: darkgray;
